@@ -31,11 +31,6 @@
 }
 
 
-.navbar_container h1{
-    font-size: 4rem;
-}
-
-
 .navbar_menu{
     display: flex;
     align-items: center;
