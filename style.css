@@ -115,25 +115,20 @@
 }
 
 
-.play-now-container{
-    display: inline-block;
-    margin-left: 44%;
-    margin-top: 10%;
-    margin-bottom: 60%;
-}
-
-
 .play-now-container button{
-    font-size: 3rem;
+    font-size: 2rem;
     border-radius: 2rem;
     padding: 2rem;
     color: #3e59d0;
-    background-color: beige;
+    background-color: white;
+    position: fixed;
+    top: 1rem;
+    right: 100px;
 }
 
 
 .play-now-container :hover{
     transform: translateY(-10px);
-    transition: all 0.5s ease;
+    transition: all 0.4s ease;
     cursor: pointer;
 }
