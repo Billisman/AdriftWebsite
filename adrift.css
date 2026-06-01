@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: sans-serif;
     color: aliceblue;
 }
 
@@ -144,8 +144,8 @@ body{
 .sailing-images{
     display: flex;
     flex-direction: row;
-    gap: 10%;
-    align-items: center;
+    justify-content: center;
+    gap: 4rem;
 }
 
 
@@ -178,8 +178,8 @@ body{
 .navigate-images{
     display: flex;
     flex-direction: row;
-    gap: 10%;
-    align-items: center;
+    justify-content: center;
+    gap: 4rem;
 }
 
 
@@ -212,8 +212,8 @@ body{
 .islands-images{
     display: flex;
     flex-direction: row;
-    gap: 10%;
-    align-items: center;
+    justify-content: center;
+    gap: 4rem;
 }
 
 
@@ -246,8 +246,8 @@ body{
 .puzzles-images{
     display: flex;
     flex-direction: row;
-    gap: 10%;
-    align-items: center;
+    justify-content: center;
+    gap: 4rem;
 }
 
 
@@ -280,8 +280,8 @@ body{
 .journal-images{
     display: flex;
     flex-direction: row;
-    gap: 10%;
-    align-items: center;
+    justify-content: center;
+    gap: 4rem;
 }
 
 
