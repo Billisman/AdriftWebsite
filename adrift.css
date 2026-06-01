@@ -83,14 +83,10 @@ body{
 
 
 .adrift-container{
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
 }
-
-
-
 
 
 .studio-header{
@@ -110,7 +106,7 @@ body{
 }
 
 
-.studio-header h1{
+.adrift-header h1{
     margin: 4rem;
     font-size: 3rem;
     text-align: center;
@@ -126,24 +122,108 @@ body{
 }
 
 
-.sailing-feature {
-    position: absolute;
-    top: 0;
-    left: 0;
+.sailing-feature {  
     width: 100%;
-    padding: 30px;
+    margin-top: 4rem;
 }
 
 
 .sailing-feature h1{
-    margin: 30rem;
     font-size: 3rem;
     text-align: center;
 }
 
+
+.sailing-feature p{
+    font-size: 2rem;
+    text-align: center;
+    padding: 0 1rem;
+    margin: 0 1rem;
+}
+
 .sailing-feature img{
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: auto;
+    display: block;
+}
+
+
+.navigate-feature{
+    width: 100%;
+    margin-top: 4rem;
+}
+
+
+.navigate-feature h1{
+    font-size: 3rem;
+    text-align: center;
+}
+
+
+.navigate-feature p{
+    font-size: 2rem;
+    text-align: center;
+    padding: 0 1rem;
+    margin: 0 1rem;
+}
+
+
+.navigate-feature img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+.islands-feature{
+    width: 100%;
+    margin-top: 4rem;
+}
+
+
+.islands-feature h1{
+    font-size: 3rem;
+    text-align: center;
+}
+
+
+.islands-feature p{
+    font-size: 2rem;
+    text-align: center;
+    padding: 0 1rem;
+    margin: 0 1rem;
+}
+
+
+.islands-feature img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+.puzzles-feature{
+    width: 100%;
+    margin-top: 4rem;
+}
+
+
+.puzzles-feature h1{
+    font-size: 3rem;
+    text-align: center;
+}
+
+
+.puzzles-feature p{
+    font-size: 2rem;
+    text-align: center;
+    padding: 0 1rem;
+    margin: 0 1rem;
+}
+
+
+.puzzles-feature img{
+    width: 100%;
+    height: auto;
     display: block;
 }
