@@ -137,14 +137,21 @@ body{
 .sailing-feature p{
     font-size: 2rem;
     text-align: center;
-    padding: 0 1rem;
+    padding: 1rem 1rem;
     margin: 0 1rem;
 }
 
-.sailing-feature img{
-    width: 100%;
+.sailing-images{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    align-items: center;
+}
+
+
+.sailing-images img{
+    width: 45%;
     height: auto;
-    display: block;
 }
 
 
@@ -163,15 +170,22 @@ body{
 .navigate-feature p{
     font-size: 2rem;
     text-align: center;
-    padding: 0 1rem;
+    padding: 1rem 1rem;
     margin: 0 1rem;
 }
 
 
-.navigate-feature img{
-    width: 100%;
+.navigate-images{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    align-items: center;
+}
+
+
+.navigate-images img{
+    width: 45%;
     height: auto;
-    display: block;
 }
 
 
@@ -190,15 +204,22 @@ body{
 .islands-feature p{
     font-size: 2rem;
     text-align: center;
-    padding: 0 1rem;
+    padding: 1rem 1rem;
     margin: 0 1rem;
 }
 
 
-.islands-feature img{
-    width: 100%;
+.islands-images{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    align-items: center;
+}
+
+
+.islands-images img{
+    width: 45%;
     height: auto;
-    display: block;
 }
 
 
@@ -217,13 +238,54 @@ body{
 .puzzles-feature p{
     font-size: 2rem;
     text-align: center;
-    padding: 0 1rem;
+    padding: 1rem 1rem;
     margin: 0 1rem;
 }
 
 
-.puzzles-feature img{
-    width: 100%;
+.puzzles-images{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    align-items: center;
+}
+
+
+.puzzles-images img{
+    width: 45%;
     height: auto;
-    display: block;
+}
+
+
+.journal-feature{
+    width: 100%;
+    margin-top: 4rem;
+}
+
+
+.journal-feature h1{
+    font-size: 3rem;
+    text-align: center;
+}
+
+
+.journal-feature p{
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem 1rem;
+    margin: 0 1rem;
+}
+
+
+.journal-images{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    align-items: center;
+}
+
+
+.journal-images img{
+    width: 45%;
+    height: auto;
 }
