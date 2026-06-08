@@ -44,7 +44,7 @@ body{
     align-items: center;
     list-style: none;
     text-align: center;
-    margin-right: 30%;
+    margin-right: 20%;
 }
 
 
@@ -115,7 +115,7 @@ body{
 
 
 .the-game p{
-    font-size: 2rem;
+    font-size: 1.4rem;
     text-align: center;
     padding: 0 1rem;
     margin: 0 1rem;
